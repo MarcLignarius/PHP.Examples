@@ -1,5 +1,7 @@
 <?php
 $friend_name = "Jennifer";
+$partner_name = "Bob";
+$pet_name = "Fluffles";
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +15,7 @@ $friend_name = "Jennifer";
     <h1>Greetings From Afar</h1>
     <p>Dear <?php echo $friend_name; ?>,</p>
     <p>
-        How are you? I hope that you are having a nice weekend. I'm vacationing in
+        How are you? How are <?php echo $partner_name; ?> and <?php echo $pet_name; ?>? I hope that you are having a nice weekend. I'm vacationing in
         the mountains of Tibet while I learn programming!
     </p>
     <p>
