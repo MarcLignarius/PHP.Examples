@@ -13,7 +13,7 @@
 <head>
     <title>Order Form</title>
 </head>
-<<body>
+<body>
     <p>Hi <?php echo $recipient; ?>, </p>
     <p>Just making my weekly order. Details are below.</p>
     <p><?php echo $downtown_order; ?></p>
