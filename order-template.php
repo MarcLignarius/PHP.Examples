@@ -12,16 +12,17 @@
 <html>
 <head>
     <title>Order Form</title>
+    <link href="css/order-template.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <p>Hi <?php echo $recipient; ?>, </p>
     <p>Just making my weekly order. Details are below.</p>
     <p><?php echo $downtown_order; ?></p>
-    <p><?php echo $downtown_address; ?></p>
+    <p class = 'address'><?php echo $downtown_address; ?></p>
     <p><?php echo $northwest_order; ?></p>
-    <p><?php echo $northwest_address; ?></p>
+    <p class = 'address'><?php echo $northwest_address; ?></p>
     <p><?php echo $south_order; ?></p>
-    <p><?php echo $south_address; ?></p>
+    <p class = 'address'><?php echo $south_address; ?></p>
     <p>Thanks,</p>
     <p>Diane</p>
 </body>
